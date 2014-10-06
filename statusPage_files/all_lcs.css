@@ -1,0 +1,54 @@
+/* Latest Tweet List */
+.tweet-container{
+	width:100%;
+	background-color: #ededed;
+	position: absolute;
+	bottom: 0px;
+	padding: 20px 0 0 0;
+	height: 90px;
+}
+
+.tweet-content{
+	width: 700px;
+	margin: 0 auto;
+	height: 80px;
+    overflow-y: hidden;
+    position: relative;
+    font-size: 20px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.tweet-time{
+	padding:0 0 0 25px !important;
+}
+
+.tweet-content ul.tweet_list {
+	position: absolute;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.tweet-content ul.tweet_list li {
+	padding-left:30px;
+	height: 80px;
+}
+.tweet-content ul.tweet_list li a{
+	color:#f07403;
+}
+
+.tweet-content ul.tweet_list li a:hover{
+	color:#f07403;
+}
+
+.tw-icon{
+	width: 20px;
+	height: 16px;
+	margin:5px 5px 59px  0;
+	float: left;
+	/*-webkit-mask-box-image: url(../images/tweet-icon.png);*/
+	background: url(../images/tweet-icon.png) 0 0 transparent;
+}
+
+.tweet_time{font-size: 12px}
